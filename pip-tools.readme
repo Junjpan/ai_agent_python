@@ -1,0 +1,187 @@
+# Using pip-tools for Clean Python Dependency Management
+
+This guide explains how to use **pip-tools** to manage dependencies using a clean, maintainable structure with:
+
+* `requirements.in`
+* `requirements.txt`
+* `requirements-dev.in`
+* `requirements-dev.txt`
+
+It also explains:
+
+* How to compile dependency files
+* When and when *not* to use `pip-compile --upgrade`
+* Recommended best practices
+
+---
+
+## 📁 Recommended File Structure
+
+```
+project/
+│
+├── requirements.in
+├── requirements.txt
+├── requirements-dev.in
+├── requirements-dev.txt
+│
+└── src/ (your code)
+```
+
+### ✔️ `requirements.in`
+
+Your **top-level runtime dependencies**.
+No version numbers. Easy to read and maintain.
+
+Example:
+
+```
+langchain
+wikipedia
+langchain-openai
+python-dotenv
+pydantic
+```
+
+### ✔️ `requirements.txt`
+
+Auto-generated from `requirements.in`.
+Contains **all pinned dependencies**, including transitive dependencies.
+
+You should **never edit this file manually**.
+
+---
+
+### ✔️ `requirements-dev.in`
+
+Development-only dependencies.
+No version numbers.
+
+Example:
+
+```
+pip-tools
+pytest
+ruff
+black
+```
+
+### ✔️ `requirements-dev.txt`
+
+Auto-generated pinned versions for dev dependencies.
+
+Also never edit manually.
+
+---
+
+## 🔧 Installation
+
+Install pip-tools inside your virtual environment:
+
+```
+pip install pip-tools
+```
+
+---
+
+## ⚙️ Compiling Dependencies
+
+### 1. Compile runtime dependencies
+
+```
+pip-compile requirements.in
+```
+
+This generates a fully pinned `requirements.txt`.
+
+### 2. Compile dev dependencies
+
+```
+pip-compile requirements-dev.in
+```
+
+This generates `requirements-dev.txt`.
+
+---
+
+## 🔄 Updating Dependencies
+
+### ✔️ Adding or removing a dependency (NO upgrade)
+
+If you only added or removed a package in `.in` files and want to keep existing versions:
+
+```
+pip-compile requirements.in
+pip-compile requirements-dev.in
+```
+
+This updates the `.txt` files **while preserving current pinned versions**.
+
+---
+
+## ⬆️ Upgrading All Dependencies
+
+Use this when you want to pull in **newer versions** of packages.
+
+### Runtime:
+
+```
+pip-compile --upgrade requirements.in
+```
+
+### Development:
+
+```
+pip-compile --upgrade requirements-dev.in
+```
+
+This refreshes **every** dependency to its latest compatible version.
+
+---
+
+## 🧠 When to Use `--upgrade`
+
+### ✔️ Use `--upgrade` when:
+
+* You want **newer versions** of your dependencies
+* You haven't updated dependencies for a while
+* You're preparing for a new release
+
+### ❌ Don’t use `--upgrade` when:
+
+* You only added a new dependency
+* You only removed a dependency
+* You want to keep the current dependency versions stable
+
+Just run:
+
+```
+pip-compile requirements.in
+```
+
+---
+
+## 📦 Installing Dependencies
+
+### Runtime only (production):
+
+```
+pip install -r requirements.txt
+```
+
+### Runtime + development (local dev):
+
+```
+pip install -r requirements.txt -r requirements-dev.txt
+```
+
+---
+
+## 🎯 Summary
+
+* Edit `.in` files by hand
+* Never edit `.txt` files manually
+* Use `pip-compile` to regenerate pinned versions
+* Use `--upgrade` only when you want newer versions
+* This structure keeps your dependencies clean, reproducible, and easy to maintain
+
