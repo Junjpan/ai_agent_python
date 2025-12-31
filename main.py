@@ -50,7 +50,6 @@ rawResult = agent.invoke(messages)
 
 # # Parse LLM output properly to get structured response
 structured = rawResult["structured_response"]
-p
 print("\nStructured response:")
 print(structured)
 
