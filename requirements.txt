@@ -27,6 +27,8 @@ attrs==25.4.0
     # via aiohttp
 beautifulsoup4==4.14.2
     # via wikipedia
+brotli==1.2.0
+    # via httpx
 certifi==2025.11.12
     # via
     #   httpcore
@@ -35,13 +37,17 @@ certifi==2025.11.12
 charset-normalizer==3.4.4
     # via requests
 click==8.3.1
-    # via duckduckgo-search
+    # via
+    #   ddgs
+    #   duckduckgo-search
 colorama==0.4.6
     # via
     #   click
     #   tqdm
 dataclasses-json==0.6.7
     # via langchain-community
+ddgs==9.10.0
+    # via -r requirements.in
 distro==1.9.0
     # via
     #   anthropic
@@ -52,6 +58,8 @@ duckduckgo-search==8.1.1
     # via -r requirements.in
 exceptiongroup==1.3.0
     # via anyio
+fake-useragent==2.2.0
+    # via ddgs
 frozenlist==1.8.0
     # via
     #   aiohttp
@@ -60,16 +68,23 @@ greenlet==3.2.4
     # via sqlalchemy
 h11==0.16.0
     # via httpcore
+h2==4.3.0
+    # via httpx
+hpack==4.1.0
+    # via h2
 httpcore==1.0.9
     # via httpx
-httpx==0.28.1
+httpx[brotli,http2,socks]==0.28.1
     # via
     #   anthropic
+    #   ddgs
     #   langgraph-sdk
     #   langsmith
     #   openai
 httpx-sse==0.4.3
     # via langchain-community
+hyperframe==6.1.0
+    # via h2
 idna==3.11
     # via
     #   anyio
@@ -123,7 +138,9 @@ langsmith==0.4.43
     #   langchain-community
     #   langchain-core
 lxml==6.0.2
-    # via duckduckgo-search
+    # via
+    #   ddgs
+    #   duckduckgo-search
 marshmallow==3.26.1
     # via dataclasses-json
 multidict==6.7.0
@@ -148,7 +165,9 @@ packaging==25.0
     #   langsmith
     #   marshmallow
 primp==0.15.0
-    # via duckduckgo-search
+    # via
+    #   ddgs
+    #   duckduckgo-search
 propcache==0.4.1
     # via
     #   aiohttp
@@ -195,6 +214,8 @@ sniffio==1.3.1
     #   anthropic
     #   anyio
     #   openai
+socksio==1.0.0
+    # via httpx
 soupsieve==2.8
     # via beautifulsoup4
 sqlalchemy==2.0.44

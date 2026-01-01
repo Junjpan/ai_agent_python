@@ -1,0 +1,124 @@
+=== Research Output ===
+Timestamp: 20251231_192501
+
+FIJI RESEARCH REPORT
+
+Topic: Fiji
+
+Summary:
+Fiji, officially the Republic of Fiji, is an island country located in Melanesia, part of Oceania in the South Pacific Ocean. It is situated approximately 1,100 nautical miles (2,000 km; 1,300 mi) north-northeast of New Zealand. The country consists of an extensive archipelago comprising more than 330 islands, of which approximately 110 are permanently inhabited, along with more than 500 islets. The total land area amounts to about 18,300 square kilometres (7,100 sq mi). The most outlying island group is Ono-i-Lau. About 87% of the total population resides in the country.
+
+Key Facts:
+- Official Name: Republic of Fiji
+- Region: Melanesia, Oceania
+- Location: South Pacific Ocean
+- Distance from New Zealand: ~1,100 nautical miles (2,000 km)
+- Number of Islands: 330+
+- Permanently Inhabited Islands: ~110
+- Number of Islets: 500+
+- Total Land Area: ~18,300 km² (7,100 sq mi)
+- Outlying Island Group: Ono-i-Lau
+
+Sources:
+- Wikipedia: Fiji
+
+Tools Used:
+- Wikipedia search
+
+=== End of Research Output ===
+
+=== Research Output ===
+Timestamp: 20251231_193209
+
+RESEARCH REPORT: Most Difficult College to Get Into in the World
+
+TOPIC: Which college is most difficult to go to in the world?
+
+SUMMARY:
+Based on current acceptance rates and admissions data, the California Institute of Technology (Caltech) is the most difficult college to get into in the world, with an acceptance rate of just 2.57% for the 2024-2025 academic year. Out of 13,856 applicants, only 356 students were admitted.
+
+TOP MOST SELECTIVE UNIVERSITIES BY ACCEPTANCE RATE (2024-2025):
+
+1. **Caltech (California Institute of Technology)** - 2.57% acceptance rate
+   - Location: Pasadena, California, USA
+   - Applicants: 13,856
+   - Admitted: 356 students
+   - Rejects more than 97 out of every 100 applicants
+
+2. **Harvard University** - 3.65% acceptance rate
+   - Location: Cambridge, Massachusetts, USA
+   - One of the most prestigious universities globally
+   - Extremely competitive admissions process
+
+3. **Columbia University** - 3.86% acceptance rate
+   - Location: New York, USA
+   - Ivy League institution
+   - International applicant acceptance rate: 2.46%
+
+4. **MIT (Massachusetts Institute of Technology)** - 4.5% acceptance rate
+   - Location: Cambridge, Massachusetts, USA
+   - Class of 2029: 1,324 admitted out of 29,282 applicants
+
+5. **Oxford University** - 15-17.5% acceptance rate (undergraduate)
+   - Location: Oxford, United Kingdom
+   - Postgraduate acceptance rate: ~30%
+   - International applicants face even lower acceptance rates
+
+KEY FINDINGS:
+- The most selective universities in the world are primarily located in the United States
+- Caltech stands out as the absolute hardest to get into globally
+- These elite institutions combine ultra-low acceptance rates with rigorous academic standards
+- Competition is fierce with tens of thousands of applicants competing for limited spots
+- International applicants often face even more competitive acceptance rates
+
+SOURCES:
+- Current 2024-2025 acceptance rate data from university admissions offices
+- Educational ranking websites and college admissions guides
+- University-specific admissions statistics and reports
+
+=== End of Research Output ====== Research Output ===
+Timestamp: 20251231_195335
+
+RESEARCH REPORT: MOST POPULAR CAREERS IN THE NEXT 10 YEARS (2024-2034)
+
+EXECUTIVE SUMMARY:
+Based on current job market trends and Bureau of Labor Statistics projections, the most popular and fastest-growing careers in the next 10 years will be concentrated in three main sectors:
+
+1. RENEWABLE ENERGY & SUSTAINABILITY
+   - Wind Turbine Technicians (Top fastest-growing job)
+   - Solar Panel Installers (Second fastest-growing job)
+   - These roles are leading the job growth due to the global shift toward clean energy
+
+2. HEALTHCARE & SOCIAL ASSISTANCE
+   - Healthcare is projected to be the fastest-growing industry sector overall
+   - Physical Therapists
+   - Advanced Practice Providers (Nurse Practitioners, Physician Assistants)
+   - Healthcare support roles
+   - Four of the top 10 fastest-growing jobs are healthcare-related
+   - The aging population and increased healthcare demand drive this growth
+
+3. TECHNOLOGY & ARTIFICIAL INTELLIGENCE
+   - AI Engineers and Consultants (Top positions in fastest-growing jobs)
+   - Computer and Math-related occupations (Four of top 10 jobs)
+   - Data Scientists
+   - Software Developers
+   - Tech roles are expanding due to digital transformation across industries
+
+KEY STATISTICS:
+- U.S. economy expected to add 5.2 million jobs from 2024-2034
+- Healthcare and social assistance will see the largest job growth
+- Renewable energy jobs are experiencing explosive growth
+- AI and technology roles are among the fastest-growing positions
+
+CONCLUSION:
+The most popular careers in the next 10 years will likely be in:
+1. Healthcare (due to aging population)
+2. Renewable Energy (due to climate change initiatives)
+3. Artificial Intelligence & Technology (due to digital transformation)
+
+These sectors offer strong job security, competitive salaries, and long-term growth potential.
+
+Sources: Bureau of Labor Statistics (BLS), Job Market Trend Analysis 2024-2034
+
+=== End of Research Output ===
+
